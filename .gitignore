@@ -1,3 +1,4 @@
 .gitignore
 #Untracked
 /node_modules
+/dist
