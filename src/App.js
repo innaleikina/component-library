@@ -3,6 +3,7 @@ import "./App.css";
 import Button from './components/button';
 import Date from './components/date';
 import ErrorBoundary from './components/errorBoundaries'
+import DateTime from './components/date';
 
 class App extends Component{
     render(){
@@ -11,7 +12,8 @@ class App extends Component{
                 <ErrorBoundary>
                     <h1>Test</h1>
                     <Button/>
-                    <Date />
+                    {/* this is not working...props are not passing*/}
+                    <DateTime style = 'lg' />
                 </ErrorBoundary>
             </div>
         );
